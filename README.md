@@ -10,7 +10,8 @@ nước lúc bấy giờ
 => Đại hội lần thứ nhất đánh dấu sự phục hồi hệ thống tổ chức của Đảng và phong trào cách
 mạng quần chúng, tạo điều kiện để bước vào một cao trào cách mạng mới.
 2. 2.ĐẠI HỘI ĐẢNG LẦN II (19/2/1951)
- Bối cảnh lịch sử:
+
+Bối cảnh lịch sử:
 - Bí thư Trường Chinh, Hồ Chí Minh được bầu làm Chủ tịch Đảng
 - Sau 16 năm lãnh đạo CMVN, lần đầu tiên Đảng tuyên bố ra công khai tiến hành đại hội tại xã
 Vinh Quang (nay là Kim Bình), huyện Chiêm Hóa, tỉnh Tuyên Quang.
@@ -22,7 +23,8 @@ mọi mặt, các nước xã hội chủ nghĩa ở châu Âu bước vào côn
 chất cho chủ nghĩa xã hội, Nước Cộng hòa Nhân dân Trung Hoa ra đời
 - Đại hội quyết định: Do nhu cầu kháng chiến, giai cấp công nhân và nhân dân mỗi nước
 Việt Nam, Lào, Campuchia cần có một đảng riêng.
- Nội dung của Đại hội:
+
+Nội dung của Đại hội:
 - Báo cáo chính trị của BCHTW do HCM trình bày
 - Ở Việt Nam, Đảng ra hoạt động công khai, lấy tên là Đảng Lao động Việt Nam
 - Bầu ban chấp hành Trung ương Đảng
