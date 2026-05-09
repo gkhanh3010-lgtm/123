@@ -13,14 +13,10 @@ mạng quần chúng, tạo điều kiện để bước vào một cao trào c�
 
 Bối cảnh lịch sử:
 - Bí thư Trường Chinh, Hồ Chí Minh được bầu làm Chủ tịch Đảng
-- Sau 16 năm lãnh đạo CMVN, lần đầu tiên Đảng tuyên bố ra công khai tiến hành đại hội tại xã
-Vinh Quang (nay là Kim Bình), huyện Chiêm Hóa, tỉnh Tuyên Quang.
+- Sau 16 năm lãnh đạo CMVN, lần đầu tiên Đảng tuyên bố ra công khai tiến hành đại hội tại xã Vinh Quang (nay là Kim Bình), huyện Chiêm Hóa, tỉnh Tuyên Quang.
 - Là mốc đánh dấu bước phát triển mới trong quá trình trưởng thành và lãnh đạo CM của
-Đảng, là “Đại hội kháng chiến thắng lợi”, “thúc đẩy kháng chiến đến thắng lợi hoàn toàn và
-xây dựng Đảng Lao động Việt Nam”.
-- Đại hội lần thứ hai của Đảng được tiến hành trong bối cảnh Liên Xô lớn mạnh vượt bậc về
-mọi mặt, các nước xã hội chủ nghĩa ở châu Âu bước vào công cuộc xây dựng cơ sở vật
-chất cho chủ nghĩa xã hội, Nước Cộng hòa Nhân dân Trung Hoa ra đời
+Đảng, là “Đại hội kháng chiến thắng lợi”, “thúc đẩy kháng chiến đến thắng lợi hoàn toàn và xây dựng Đảng Lao động Việt Nam”.
+- Đại hội lần thứ hai của Đảng được tiến hành trong bối cảnh Liên Xô lớn mạnh vượt bậc về mọi mặt, các nước xã hội chủ nghĩa ở châu Âu bước vào công cuộc xây dựng cơ sở vật chất cho chủ nghĩa xã hội, Nước Cộng hòa Nhân dân Trung Hoa ra đời
 - Đại hội quyết định: Do nhu cầu kháng chiến, giai cấp công nhân và nhân dân mỗi nước
 Việt Nam, Lào, Campuchia cần có một đảng riêng.
 
@@ -49,8 +45,10 @@ trải qua 3 giai đoạn
 - Đại hội lần này là “Đại hội xây dựng chủ nghĩa xã hội ở miền Bắc và đấu tranh hòa bình
 thống nhất nước nhà”
 - Nội dung quan trọng nhất: đề ra nhiệm vụ chiến lược cho CM cả nước và CM từng miền
+
 • Nhiệm vụ chung: “tăng cường đoàn kết, toàn dân, kiên quyết đấu tranh giữ
 CMDTDC ở miền Nam, thực chất thống nhất nước nhà”
+
 • Nhiệm vụ chiến lược: Một là, tiến hành CNXH miền Bắc. Hai là, giải phóng miền
 Nam, thống nhất nước nhà, hoàn thành độc lập và dân chủ trong cả nước.
 • Mối quan hệ của CM 2 miền: 2 nhiệm vụ chiến lược có quan hệ mật thiết với nhau
