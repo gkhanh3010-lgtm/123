@@ -1,53 +1,81 @@
 B
+
 Bản chất giai cấp của nhà nước được thể hiện như thế nào?
 Đáp án đúng: Nhà nước là bộ máy dùng để duy trì sự thống trị của giai cấp này đối với giai cấp khác (hoặc: Nhà nước là bộ máy trấn áp đặc biệt của giai cấp này đối với giai cấp khác).
+
 C
+
 Câu nói sau đây là của ai: "Trước sự liên minh của các đại biểu khoa học, giai cấp vô sản và giới kỹ thuật, không một thế lực đen tối nào đứng vững được"?
 Đáp án đúng: V.I. Lênin
+
 Câu “vô sản tất cả các nước và các dân tộc bị áp bức, đoàn kết lại" là của ai?
 Đáp án đúng: V.I.Lênin
+
 Chủ nghĩa xã hội được hiểu theo bao nhiêu nghĩa?
 Đáp án đúng: 4
+
 Chủ nghĩa xã hội là ......... phản ảnh lý tưởng giải phóng nhân dân lao động khỏi áp bức, bóc lột, bất công.
 Đáp án đúng: Trào lưu tư tưởng, lý luận
+
 Chủ nghĩa xã hội là phong trào thực tiễn, phong trào đấu tranh của........... chống lại áp bức, bất công, chống các giai cấp thống trị.
 Đáp án đúng: Nhân dân lao động
+
 Chức năng của các chức sắc tôn giáo là:
 Đáp án đúng: Truyền bá, thực hành giáo lý, lễ nghi, chăm lo đời sống tâm linh của tín đồ
+
 Chức năng sinh đẻ (tái sản xuất con người) nhằm:
 Đáp án đúng: Tất cả các đáp án đều đúng (đáp ứng nhu cầu duy trì nòi giống, tâm sinh lý, sức lao động xã hội).
+
 Con người sáng tạo ra tôn giáo nhằm mục đích gì?
 Đáp án đúng: Phản ánh những ước mơ, nguyện vọng, suy nghĩ của họ (hoặc: Vì mục đích lợi ích của con người - tuỳ theo giáo trình cụ thể, nhưng ý nghĩa bù đắp hiện thực là cốt lõi).
+
 Có bao nhiêu nguyên tắc trong việc giải quyết vấn đề tôn giáo trong thời kỳ quá độ lên CNXH?
 Đáp án đúng: 4
+
 Cơ sở hình thành nên gia đình là hai mối quan hệ cơ bản nào?
 Đáp án đúng: Quan hệ hôn nhân và quan hệ huyết thống
+
 Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội (1991) đã xác định mô hình chủ nghĩa xã hội ở nước ta với mấy đặc trưng?
 Đáp án đúng: 6 đặc trưng
+
 Đ
+
 Đặc điểm chủ yếu của giai cấp công nhân Việt Nam ở đầu thế kỷ XX là:
 Đáp án đúng: Giai cấp công nhân Việt Nam gắn bó mật thiết với các tầng lớp nhân dân trong xã hội. Lợi ích của giai cấp công nhân và lợi ích dân tộc gắn chặt với nhau. Tạo thành động lực thúc đẩy đoàn kết giai cấp gắn liền với đoàn kết dân tộc... (Lưu ý: Một biến thể khác của câu này trong đề có đáp án đúng là "Số lượng giai cấp công nhân Việt Nam khi ra đời còn ít...").
+
 Đặc trưng nổi bật nhất của giai cấp công nhân nói chung là:
 Đáp án đúng: Lao động bằng phương thức công nghiệp với đặc trưng công cụ lao động là máy móc, tạo ra năng suất lao động cao, quá trình lao động mang tính chất xã hội hóa
+
 Đâu là phát kiến vĩ đại của C.Mác và Ph.Ănghen?
 Đáp án đúng: Tất các các đáp án đều đúng (Duy vật lịch sử, Giá trị thặng dư, Sứ mệnh lịch sử GCCN)
+
 Điền từ còn thiếu: Gia đình như một tế bào tự nhiên, là ... để tạo nên cơ thể - xã hội.
 Đáp án đúng: Một đơn vị cơ sở
+
 Điểm chung của các nhà nước xã hội chủ nghĩa là:
 Đáp án đúng: Đặt dưới sự lãnh đạo của Đảng cộng sản
+
 G
+
 Gia đình cũng là một trong những cộng đồng để xã hội tác động đến mỗi một cá nhân trong gia đình. Luận điểm trên là:
 Đáp án đúng: Đúng
+
 Gia đình mẫu quyền đã trở thành... đối với nhu cầu để lại của cải của người đàn ông cho con cái đích thực của họ.
 Đáp án đúng: Rào cản
+
 Giai cấp công nhân hiện đại ngày nay có một bộ phận công nhân đã tham gia vào sở hữu một lượng tư liệu sản xuất của xã hội thông qua chế độ cổ phần hóa, điều này giúp cho giai cấp công nhân:
 Đáp án đúng: Không thay đổi gì về quyền quyết định cơ chế phân phối lợi nhuận và quyền quyết định sản xuất
+
 K
+
 Khi nào tôn giáo mang tính chính trị?
 Đáp án đúng: Khi các giai cấp thống trị đã lợi dụng và sử dụng tôn giáo để phục vụ lợi ích của mình
+
 Khi xã hội còn chế độ tư hữu, thì quan hệ giữa các thành viên trong gia đình, đặc biệt là quan hệ giữa vợ và chồng mang tính chất gì?
 Đáp án đúng: Phục tùng, bất bình đẳng
+
 L
+
 Lênin đã dựa vào những yêu tố nào để khái quát Cương lĩnh dân tộc?
 Đáp án đúng: Dựa trên quan điểm của CN Mác- Lênin về mối quan hệ giữa dân tộc với giai cấp
 Luận điểm nào sau đây KHÔNG phải là phương hướng cơ bản phản ánh con đường quá độ lên chủ nghĩa xã hội ở nước ta?
