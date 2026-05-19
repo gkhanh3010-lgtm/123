@@ -457,3 +457,56 @@ Z
 Z Score có mean, std =?
 Đáp án: 0, 1
 
+Câu hỏi thêm:
+
+1. x="Python", x[2:5] in ra gì?
+
+Đáp án: "tho"
+
+2. Biểu đồ Violin là gì?
+
+Đáp án & Đặc điểm: Biểu đồ Violin (Violin plot) là sự kết hợp giữa biểu đồ hộp (Boxplot) và biểu đồ mật độ (Kernel Density Plot).
+
+3. Các ngành nghề này có vai trò gì? (Trong bối cảnh Khoa học Dữ liệu)
+
+Kỹ sư dữ liệu (Data Engineer): Xây dựng hạ tầng, đường ống (pipeline) để thu thập, lưu trữ và làm sạch dữ liệu từ nhiều nguồn. (Người lo phần nền tảng).
+
+Chuyên viên phân tích dữ liệu (Data Analyst): Lấy dữ liệu đã sạch để trực quan hóa, làm báo cáo/dashboard và tìm ra các insight cơ bản giúp doanh nghiệp ra quyết định.
+
+Nhà khoa học dữ liệu (Data Scientist): Sử dụng toán học, thống kê và Machine Learning để xây dựng các mô hình dự đoán tương lai hoặc phân loại nâng cao.
+
+4. Thư viện nào dùng cùng requests đọc file trong RSS XML?
+
+Đáp án: Chính xác như gợi ý trong câu hỏi của bạn là BeautifulSoup (thường dùng chung với parser xml hoặc lxml).
+
+5. Biểu đồ cột chồng (Stacked bar chart) có đặc điểm gì?
+
+Đáp án: Biểu đồ cột chồng giúp hiển thị đồng thời tổng độ lớn của một hạng mục và thành phần cấu tạo bên trong hạng mục đó.
+
+6. Khôi phục dữ liệu sau khi unstack dùng gì?
+
+Đáp án: Dùng hàm stack()
+
+7. Cộng series s1 và s2 thì ra kết quả gì như nào?
+
+Đáp án: Kết quả là một Series mới, trong đó Pandas sẽ tự động cộng các giá trị có cùng nhãn chỉ mục (index) với nhau.
+
+8. Hàm map() dùng với kiểu dữ liệu nào?
+
+Đáp án: * Trong Python cơ bản: map() dùng với các Iterable (đối tượng có thể lặp) như List, Tuple, Set.
+
+10. Tham số how khi dùng với pd.merge có ý nghĩa gì?
+
+Đáp án: Nó xác định cách thức kết nối (Join type) giữa 2 DataFrame, tương tự như SQL. Các giá trị phổ biến gồm:
+
+11. Dữ liệu nào là bán cấu trúc (Semi-structured data)?
+
+Đáp án: Các định dạng phổ biến nhất là JSON, XML, HTML, hoặc dữ liệu trong các cơ sở dữ liệu NoSQL (như MongoDB).
+
+12. Đặc điểm dữ liệu XML?
+
+Đáp án: XML (Extensible Markup Language) sử dụng cấu trúc cây phân cấp được tạo ra bởi các thẻ (tags) tự định nghĩa.
+
+13. Numpy có cho chứa các dữ liệu có kiểu khác nhau không?
+
+Đáp án: Về bản chất là KHÔNG (nếu muốn tối ưu hiệu suất).
