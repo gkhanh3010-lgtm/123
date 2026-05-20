@@ -36,6 +36,9 @@ Cấu trúc if...elif...else sau đây có hợp lệ không? (if x > 5:... elif
 Cấu trúc nào không dùng để truy cập nhiều cột?
 Đáp án: df.get('A', 'B')
 
+Câu nào sau đây là cú pháp đúng để định nghĩa hàm trong Python?
+Đáp án: def myFunction() :
+
 Cho DataFrame df, cú pháp df.iloc[2] sẽ trả về đối tượng gì?
 Đáp án: Series
 
@@ -53,6 +56,9 @@ Cho hai DataFrame df1 và df2... Thực hiện đoạn mã sau cho kết quả n
 
 Cho hai DataFrame: SanPham... GiaBan... Đoạn mã nào sau đây phù hợp để nối hai DataFrame sao cho toàn bộ sản phẩm trong DataFrame SanPham được giữ lại cùng với giá bán?
 Đáp án: pd.merge(GiaBan, SanPham, on="ma_sp", how="right")
+
+Cho DataFrame df, câu lệnh thêm cột "len name chứa độ đã chuỗi của cột "name" là gì?
+Đáp án: df["len_name"] = df["name"].str.len()
 
 Cho mảng hai chiều arr. Cú pháp arr.sum() sử dụng để tính gì?
 Đáp án: Tổng tất cả các phần tử của mảng.
@@ -84,6 +90,9 @@ Dữ liệu giao dịch trong kinh doanh có dạng?
 
 Dữ liệu từ API của IMF hoặc World Bank thuộc loại nào?
 Đáp án: Dữ liệu vĩ mô về kinh tế, xã hội.
+
+Dùng mô hình 3D khiến người xem đứng gần thấy nó to hơn, các trang trí khiến người quan sát khó tập trung vào dữ liệu. việc lạm dụng mô hình 3D vi phạm nguyên tắc gì?
+Đáp án: rõ ràng
 
 Đ
 Đặc điểm nào mô tả đúng nhất về định dạng bảng dài (long format)?
@@ -149,6 +158,9 @@ Hàm np.linspace() khác với np.arange() ở điểm nào?
 Hàm pd.to_datetime() thường được dùng để xử lý vấn đề gì?
 Đáp án: Chuyển đổi cột dạng chuỗi (object) sang định dạng thời gian.
 
+Hàm pd.to_datetime() thường được dùng để xử lý vấn đề gì?
+Đáp án: Chuyển đổi cột dạng chuỗi (object) sang định dạng thời gian.
+
 Hiện tượng mô hình dự đoán sai nhiều ngay cả trên tập Train gọi là gì?
 Đáp án: Dưới khớp (Underfitting).
 
@@ -186,11 +198,20 @@ Kết quả của đoạn mã sau là gì? x = 3; if x < 5: x += 2; elif x < 10:
 Kết quả của đoạn mã sau là gì? x = [1, 2, 3, 4, 5]; print(x[-1])
 Đáp án: 5
 
+Kết quả của đoạn code sau trả về gì? 
+import pandas as pd
+df = pd.DataFrame({"a":[1,2,3], "b":[4,5,6]})
+print(df["a"] > 1)
+Đáp án: Series chứa các giá trị True/False.
+
 Khi dự đoán giá nhà, dữ liệu đầu vào được gọi là gì? và giá thực tế là gì?
 Đáp án: Đầu vào: Đặc trưng (Features), Đầu ra: Nhãn (Labels)
 
 Khi dữ liệu bị lệch trái/phải mạnh, ta nên dùng phương pháp xử lý dữ liệu nào sau đây?
 Đáp án: Log transform.
+
+Khi đồ thị lệch trái/phải mạnh, ta nên dùng phương pháp nào?
+Đáp án: Log transform
 
 Khi đọc dữ liệu từ API sử dụng thư viện requests, thuộc tính nào của đối tượng được trả về resp cho biết mã trạng thái HTTP?
 Đáp án: resp.status_code
@@ -213,6 +234,9 @@ Khi sử dụng phương thức concat trong thư viện Pandas để ghép nhi�
 Khi xử lý dữ liệu JSON có cấu trúc phức tạp và nhiều cấp lồng nhau... tại sao việc sử dụng hàm pd.json_normalize() lại được ưu tiên?
 Đáp án: Vì json_normalize giúp duỗi phẳng cấu trúc lồng nhau thành cột.
 
+Khi file "file.xlsx" có nhiều trang tính (sheet) thì lệnh pd.read_excel("file.xlsx") sẽ trả về nội dung trang tính nào?
+Đáp án; Trang đầu tiên
+
 Kiểu dữ liệu set trong Python có đặc điểm nào sau đây?
 Đáp án: Không cho phần tử trùng lặp.
 
@@ -224,6 +248,9 @@ Kỹ thuật điền giá trị thiếu bằng KNN Imputer dựa trên:
 
 Kỹ thuật Web Scraping là giải pháp phù hợp khi gặp tình huống nào?
 Đáp án: Khi cần trích xuất dữ liệu từ các trang web không hỗ trợ API.
+
+Kỹ thuật small multiples hỗ trợ tốt nhất cho mục đích nào?
+Đáp án: So sánh nhiều nhóm mà không gây chồng chéo.
 
 L
 Label Encoding chuyển đổi đặc trưng phân loại (categorical) thành gì?
@@ -243,6 +270,9 @@ Lệnh nào sau đây của Python giúp xem các thống kê cơ bản... của
 
 Lệnh s = pd.Series(5, index=['a', 'b', 'c']) sẽ tạo ra Series s như thế nào?
 Đáp án: Series với các giá trị [5, 5, 5] và chỉ số ['a', 'b', 'c'].
+
+Lệnh get.dummies() dùng làm gì
+Đáp án: one-hot encoding
 
 Loại biểu đồ nào để phát hiện và trực quan hóa ngoại lai của dữ liệu một cách hiệu quả nhất?
 Đáp án: Boxplot
@@ -275,6 +305,12 @@ Mục đích của mã hóa dữ liệu phân loại (Categorical) là gì?
 Mục đích của xử lý giá trị thiếu (Data Imputation) là gì?
 Đáp án: Tăng tính đầy đủ và nhất quán.
 
+Mục tiêu của việc chia nhánh (splitting) trong cây quyết định là gì?
+Đáp án: Tạo ra các nhóm con 'tỉnh khiết' (pure) hơn, tức là chứa các dữ liệu giống nhau nhiều hơn.
+
+Mutilindex dùng cho trục dọc hay ngang hay cả 2
+Đáp án: cả 2
+
 N
 Nếu bạn muốn mô hình 'khắt khe' hơn trong việc dự báo (chỉ báo 'Có' khi cực kỳ chắc chắn), bạn nên làm gì với ngưỡng (threshold)?
 Đáp án: Tăng lên cao (ví dụ 0.9).
@@ -287,6 +323,8 @@ Nhược điểm chính của phương pháp mã hóa Label Encoding với dữ 
 
 Nhược điểm lớn nhất của KNN khi tập dữ liệu rất lớn là gì?
 Đáp án: Tốc độ dự đoán rất chậm.
+
+Np.dot -> nhân ma trận
 
 P
 Phát biểu nào đúng về One-Hot Encoding?
@@ -339,6 +377,9 @@ Theo các nguyên tắc thiết kế trực quan hóa dữ liệu hiệu quả, 
 
 Thư viện nào thường dùng với Pandas để làm việc với file .xlsx?
 Đáp án: openpyxl
+
+Tình huống nào thích hợp nhất để sử dụng biểu đồ thanh ngang plot.barh() thay cho plot.bar()?
+Đáp án: Khi có nhiều danh mục với tên dài.
 
 Trong bài toán cảnh báo ung thư sớm, việc bỏ sót người bệnh (False Negative) là không thể chấp nhận. Bạn nên ưu tiên tối ưu chỉ số nào?
 Đáp án: Recall (Độ nhạy).
@@ -400,6 +441,9 @@ Trong thư viện Matplotlib, tham số color (hay c) của hàm vẽ biểu đ�
 Trong thư viện pandas (Python), hàm sort_index(level=...) được dùng trong trường hợp nào?
 Đáp án: Sắp xếp theo một cấp cụ thể của MultiIndex.
 
+Trong thư viện pandas (Python), thuộc tính hàm index.levels dùng để làm gì?
+Đáp án: Xác định số cấp của chỉ số.
+
 Trong thư viện pandas (Python), phương thức combine_first thường được dùng trong tình huống nào?
 Đáp án: Khi bạn kết hợp hai bảng có cấu trúc tương tự, điền các giá trị thiếu (NaN) trong bảng này bằng các giá trị có sẵn tương ứng trong bảng kia.
 
@@ -432,6 +476,15 @@ Trong thư viện Pandas, khi dùng hàm merge() với tham số how="inner", k�
 
 Trong trực quan hóa dữ liệu với thư viện Matplotlib, tình huống nào thích hợp nhất để sử dụng biểu đồ thanh ngang plot.barh() thay thế cho biểu đồ thanh đứng plot.bar()?
 Đáp án: Khi có nhiều danh mục với tên dài.
+
+Trong thư viện Pandas (Python), với DataFrame df, điểm khác biệt chính giữa phương thức df.stack() và hàm pd.melt() là gì?
+Đáp án: df.stack() chuyển cột vào trục chỉ số (tạo MultiIndex), còn pd.melt() chuyển cột thành các hàng dữ liệu mới.
+
+Trong thư viện pandas (Python), sau khi dùng hàm reset_index(), index cũ sẽ được xử lý thế nào?
+Đáp án: Trở thành một cột dữ liệu.
+
+Trong Pandas, với DataFrame df, lệnh df.set_index("col") thực hiện điều gì?
+Đáp án: Gán cột "col" thành index.
 
 V
 Vai trò chính của kỹ sư dữ liệu là gì?
@@ -499,3 +552,12 @@ Nhà khoa học dữ liệu (Data Scientist): Sử dụng toán học, thống k
 
 13. Numpy có cho chứa các dữ liệu có kiểu khác nhau không?
 Đáp án: Về bản chất là KHÔNG (nếu muốn tối ưu hiệu suất).
+
+14.One Hot encoding có làm tăng số cột lên không?
+Đáp án: Có
+
+15. Cứ tuyến tính + thời gian thì là đường thẳng
+
+16. Có chữ “tỷ lệ” thì chọn stacked bar
+
+17. Đa phần liên quan tới outliers thì sẽ là scatter plot
