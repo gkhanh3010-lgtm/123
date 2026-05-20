@@ -1,9 +1,15 @@
 B
+Bạn đang thiết kế một biểu đồ cột (Bar chart) để so sánh hiệu suất giữa hai nhóm, với sự khác biệt thực tế chỉ là 5% (ví dụ: 95% so với 100%). Để làm cho sự khác biệt này trông ấn tượng và lớn hơn trong mắt người xem, bạn quyết định cắt trục Y (Truncated Y-axis), bắt đầu từ giá trị 90% thay vì 0%. Hành động này đã vi phạm nguyên tắc thiết kế trực quan hóa nào?
+Đáp án: Trung thực
+
 Bạn cần trực quan hóa và so sánh mức độ yêu thích trung bình (thang điểm 1-10) của 8 loại sản phẩm khác nhau. Khi có nhiều danh mục, loại biểu đồ nào được khuyến nghị là gọn gàng và giúp so sánh giá trị đơn lẻ giữa các danh mục hiệu quả?
 Đáp án: Dot plot (Biểu đồ điểm).
 
 Bạn có một bảng dữ liệu bán hàng, trong đó mỗi sản phẩm có thể xuất hiện nhiều lần... Muốn tạo báo cáo bán hàng từng sản phẩm theo tháng (dạng rộng, hiển thị tổng doanh số)... dùng hàm nào?
 Đáp án: pd.pivot_table()
+
+Bạn cần đọc nhiều sheet từ file Excel lớn. Cách nào tránh phải mở file nhiều lần?
+Đáp án: xfile = pd.ExcelFile("file.xlsx") xfile.parse("Sheet1") xfile.parse("Sheet2")
 
 Bạn muốn đọc file orders.xlsx trong đó dữ liệu cần lấy nằm ở sheet thứ hai trong workbook. Lệnh nào phù hợp?
 Đáp án: pd.read_excel("orders.xlsx", sheet_name=1)
@@ -14,10 +20,16 @@ Bạn muốn đọc file report.csv nhưng chỉ đọc 100 dòng đầu tiên �
 Bạn muốn đọc file report.xlsx nhưng chỉ đọc 50 dòng đầu tiên để xem trước dữ liệu. Lệnh nào nên dùng?
 Đáp án: pd.read_excel("report.xlsx", nrows=50)
 
+Biểu đồ nào phù hợp trong các biểu đồ dưới đây dùng để hiển thị dữ liệu theo thời gian?
+Đáp án: Biểu đồ đường (Line chart).
+
 Bước Làm sạch dữ liệu trong bối cảnh phân tích kinh doanh thường bao gồm việc xử lý vấn đề nào?
 Đáp án: Xử lý dữ liệu bị thiếu hoặc trùng lặp.
 
 C
+Cách viết comment một dòng trong Python là gì?
+Đáp án: # comment
+
 Câu lệnh nào sau đây đúng để tạo một DataFrame từ danh sách (sales) trong thư viện Pandas?
 Đáp án: pd.DataFrame(sales)
 
@@ -45,6 +57,9 @@ Cho DataFrame df, cú pháp df.iloc[2] sẽ trả về đối tượng gì?
 Cho dataframe, làm sao để tính tổng lượt truy cập theo ngày?
 Đáp án: Sử dụng hàm groupby() kết hợp với hàm sum().
 
+Cho dữ liệu JSON có dạng sau: {"meta": {...}, "data": [{"id":1,...},{"id":2,...}]}. Cách nào để lấy DataFrame từ phần “data”, không phụ thuộc vào phần “meta”?
+Đáp án: obj = json.loads(json_str); df = pd.DataFrame(obj["data"])
+
 Cho đoạn code sau, kết quả in ra là gì: a = np.array([5, 10, 15, 20]); print(a[1:3])
 Đáp án: 10 15
 
@@ -59,6 +74,9 @@ Cho hai DataFrame: SanPham... GiaBan... Đoạn mã nào sau đây phù hợp đ
 
 Cho DataFrame df, câu lệnh thêm cột "len name chứa độ đã chuỗi của cột "name" là gì?
 Đáp án: df["len_name"] = df["name"].str.len()
+
+Cho DataFrame df chứa dữ liệu lịch sử truy cập website với các cột: ngay, gio, luot_truy_cap. Câu lệnh nào của Python dùng để tính tổng lượt truy cập theo từng ngày (cột “ngay”) là gì?
+Đáp án: df.groupby("ngay")["luot_truy_cap"].sum()
 
 Cho mảng hai chiều arr. Cú pháp arr.sum() sử dụng để tính gì?
 Đáp án: Tổng tất cả các phần tử của mảng.
@@ -107,6 +125,12 @@ Dùng mô hình 3D khiến người xem đứng gần thấy nó to hơn, các t
 Để đảo ngược thứ tự các phần tử trong một mảng một chiều arr, bạn có thể sử dụng cú pháp slicing nào?
 Đáp án: arr[::-1]
 
+Để tính tổng của mỗi cột trong một mảng 2 chiều arr , bạn sẽ sử dụng cú pháp nào?
+arr.sum(axis=0)
+
+Để tính giá trị trung bình (mean) của mỗi hàng trong một mảng 2 chiều arr , bạn sẽ sử dụng cú pháp nào?
+Đáp án: arr.mean(axis=1
+
 Điều gì xảy ra khi biến trong Python được gán giá trị mới với kiểu dữ liệu khác?
 Đáp án: Biến được cập nhật và mang kiểu dữ liệu mới.
 
@@ -115,6 +139,9 @@ Dùng mô hình 3D khiến người xem đứng gần thấy nó to hơn, các t
 
 Điều gì xảy ra khi thực hiện lệnh các câu lệnh sau: x = [1, 2, 3]; x.append([4, 5])
 Đáp án: Danh sách x sẽ có thêm danh sách [4, 5] như một phần tử.
+
+Điều gì sẽ xảy ra nếu một đoạn mã Python bị canh lề sai (indentation error)?
+Đáp án: Python sẽ báo lỗi và không chạy chương trình
 
 Đoạn code nào gọi hàm my_func()?
 Đáp án: my_func()
@@ -142,6 +169,12 @@ Giả sử bạn có một tệp tin hoặc chuỗi dữ liệu định dạng J
 Giả sử bạn muốn dạy máy tính phân biệt giữa 'thư rác' và 'thư thường'... Đây là ví dụ của loại hình học máy nào?
 Đáp án: Học có giám sát (Supervised Learning).
 
+Giá trị của IQR (Interquartile Range) trong phương pháp chuẩn hóa dữ liệu RobustScaler được tính bởi công thức nào?
+Đáp án: Q3 - Q1 (Phân vị 75% - Phân vị 25%).
+
+Giá trị của result sau khi thực thi đoạn mã sau là gì? result = 1 for i in range ( 1 , 4 ): result*= i
+Đáp án: 6
+
 Gộp dataframe=merge, sử dụng index ở bên phải?
 Đáp án: tham số right_index=True
 
@@ -161,10 +194,16 @@ Hàm pd.to_datetime() thường được dùng để xử lý vấn đề gì?
 Hàm pd.to_datetime() thường được dùng để xử lý vấn đề gì?
 Đáp án: Chuyển đổi cột dạng chuỗi (object) sang định dạng thời gian.
 
+Hàm .predict() trong thư viện Scikit-learn thực hiện công việc gì?
+Đáp án: Đưa ra dự đoán trên dữ liệu đầu vào.
+
 Hiện tượng mô hình dự đoán sai nhiều ngay cả trên tập Train gọi là gì?
 Đáp án: Dưới khớp (Underfitting).
 
 K
+Kết quả của df.isna().sum() là gì?
+Đáp án: Số lượng dữ liệu thiếu theo từng cột
+
 Kết quả của biến y là gì? (x = 7; y = 3; if x > 5: if x < 10: y = y + x else: y = y - x)
 Đáp án: 10
 
@@ -179,6 +218,12 @@ Kết quả của đoạn code sau trả về gì? df = pd.DataFrame({"a": [1,2,
 
 Kết quả của đoạn code sau: t=(1,2,3); t[1]=5; print(t)
 Đáp án: Lỗi (TypeError)
+
+Kết quả của đoạn code sau là gì?
+import numpy as np 
+a = np . array ([[ 1 , 2 ],[ 3 , 4 ]]) 
+print ( a . sum ())
+Đáp án: 10
 
 Kết quả của đoạn mã sau là gì? def test(a, b=2): print(a + b); test(3)
 Đáp án: 5
@@ -198,11 +243,23 @@ Kết quả của đoạn mã sau là gì? x = 3; if x < 5: x += 2; elif x < 10:
 Kết quả của đoạn mã sau là gì? x = [1, 2, 3, 4, 5]; print(x[-1])
 Đáp án: 5
 
+Kết quả của đoạn mã sau là gì? s = "abcdef" print ( s [ -2 :])
+Đáp án: "ef"
+
+Kết quả của đoạn mã sau là gì?
+Đáp án: 0 1 0 1 2 0 1 2 3
+
+Kết quả của đoạn mã sau là gì?
+Đáp án: Lỗi
+
 Kết quả của đoạn code sau trả về gì? 
 import pandas as pd
 df = pd.DataFrame({"a":[1,2,3], "b":[4,5,6]})
 print(df["a"] > 1)
 Đáp án: Series chứa các giá trị True/False.
+
+Khi chuẩn hóa dữ liệu, tại sao cần fit scaler (ví dụ sử dụng phương thức MinMaxScaler trong thư viện Sklearn) trên tập huấn luyện thay vì toàn bộ tập dữ liệu?
+Đáp số: Để tránh data leakage (tập dữ liệu huấn luyện chứa thông tin về mục tiêu cần dự đoán, nhưng thông tin tương tự không tồn tại khi triển khai thực tế.)
 
 Khi dự đoán giá nhà, dữ liệu đầu vào được gọi là gì? và giá thực tế là gì?
 Đáp án: Đầu vào: Đặc trưng (Features), Đầu ra: Nhãn (Labels)
@@ -230,6 +287,9 @@ Khi sử dụng phương thức concat trong thư viện Pandas, tham số axis 
 
 Khi sử dụng phương thức concat trong thư viện Pandas để ghép nhiều Series theo chiều ngang (axis=1), đối tượng được tạo ra là kiểu dữ liệu gì?
 Đáp án: DataFrame
+
+Khi sử dụng thư viện Scikit-learn cho Linear Regression, tại sao dữ liệu đầu vào X (Feature) thường cần được reshape thành dạng mảng 2 chiều (ví dụ: cột dọc)?
+Đáp án: Để tuân thủ quy ước ma trận: mỗi hàng là một mẫu dữ liệu, mỗi cột là một đặc trưng.
 
 Khi xử lý dữ liệu JSON có cấu trúc phức tạp và nhiều cấp lồng nhau... tại sao việc sử dụng hàm pd.json_normalize() lại được ưu tiên?
 Đáp án: Vì json_normalize giúp duỗi phẳng cấu trúc lồng nhau thành cột.
@@ -296,6 +356,9 @@ Một dấu hiệu phổ biến của data leakage trong việc huấn luyện m
 Một ngân hàng muốn đánh giá rủi ro tín dụng của các khách hàng mới. Để làm điều này, nhà phân tích cần hiểu rõ phân phối của điểm tín dụng... Loại biểu đồ nào là phù hợp?
 Đáp án: Histogram.
 
+Một nhà phân tích cần tạo báo cáo để so sánh tỷ lệ sinh viên theo từng Khoa (A, B, C) cho mỗi năm học (1, 2, 3, 4) trong một Câu lạc bộ (CLB). Đồng thời, báo cáo cũng cần trực quan hóa rõ ràng tổng số sinh viên của CLB không thay đổi qua các năm. Loại trực quan hóa nào là phù hợp nhất để thể hiện cả thành phần (tỷ lệ Khoa) và tổng thể (Tổng số sinh viên) trong cùng một hình?
+Đáp án: Stacked bar chart.
+
 Mô hình phân tích trong kinh tế - kinh doanh cần đảm bảo điều gì ngoài độ chính xác?
 Đáp án: Khả năng giải thích kết quả và tính minh bạch của dữ liệu sử dụng.
 
@@ -333,6 +396,9 @@ Phát biểu nào đúng về One-Hot Encoding?
 Phân tích dữ liệu giúp bước xác định bài toán trong dự án Data Science như thế nào?
 Đáp án: Cung cấp các thông tin sơ bộ (Insights) để định hướng đi đúng đắn.
 
+Phân tích chẩn đoán (Diagnostic Analytics) tập trung vào điều gì?
+Đáp án: Tìm nguyên nhân của các hiện tượng đã xảy ra.
+
 Phương pháp điền giá trị thiếu (Data Imputation) bằng trung vị thường hiệu quả hơn bằng giá trị trung bình khi nào?
 Đáp án: Dữ liệu có nhiều giá trị ngoại lai (outliers).
 
@@ -342,11 +408,23 @@ Phương thức nào dùng để xem 5 dòng đầu tiên của một DataFrame?
 Phương thức pop trong thư viện Pandas trên một DataFrame thực hiện chức năng nào sau đây?
 Đáp án: Trả về một cột được chỉ định đồng thời xóa cột đó khỏi DataFrame.
 
+Phương thức nào dùng để kiểm tra từng phần tử có thiếu dữ liệu không?
+Đáp án: isna() hoặc isnull()
+
+Phương thức unstack trong thư viện Pandas được sử dụng để thực hiện thao tác gì trên dữ liệu của một DataFrame?
+Đáp án: Chuyển hàng thành cột.
+
 Q
 Quyết định cắt trục Y (Truncated Y-axis), bắt đầu từ giá trị 90% thay vì 0%. Hành động này đã vi phạm nguyên tắc thiết kế trực quan hóa nào?
 Đáp án: Trung thực (Truthful).
 
+Quy trình làm việc có hệ thống giúp ích gì cho dự án dữ liệu?
+Đáp án: Biến dữ liệu thô thành thông tin có giá trị.
+
 S
+Sản phẩm đầu ra chính của một Data Engineer là gì?
+Đáp án: Một hệ thống kho dữ liệu sạch, tin cậy và sẵn sàng cho việc phân tích.
+
 Sử dụng KNN trên tập train, sai số sẽ như thế nào?
 Đáp án: Bằng 0
 
@@ -354,6 +432,9 @@ Sử dụng Python để tạo một Series từ thư viện (dictionary) dicta 
 Đáp án: pd.Series(dicta)
 
 T
+Tại sao không nên dùng Linear Regression cho bài toán phân loại nhị phân (0/1)?
+Đáp án: Vì đầu ra của nó có thể lớn hơn 1 hoặc nhỏ hơn 0, không có ý nghĩa xác suất.
+
 Tại sao chỉ sở hữu dữ liệu là chưa đủ để tạo ra lợi thế cạnh tranh?
 Đáp án: Vì dữ liệu thô chưa mang lại giá trị nếu thiếu quá trình xử lý và tư duy phân tích để khai thác tri thức.
 
@@ -396,6 +477,9 @@ Trong bước tiền xử lý và làm sạch dữ liệu, khi nào nên xóa c�
 Trong bước xử lý dữ liệu, phân tích dữ liệu đóng vai trò gì?
 Đáp án: Đánh giá chất lượng dữ liệu và đề xuất phương án xử lý sai sót.
 
+Trong cấu trúc DataFrame của Pandas, index (chỉ mục) là gì?
+Đáp án: Các nhãn dùng để xác định và truy cập các hàng dữ liệu.
+
 Trong ngôn ngữ Python, mục đích của việc sử dụng các hàm như np.sqrt, np.exp, np.log là gì?
 Đáp án: Thực hiện các phép toán trên toàn bộ mảng mà không cần vòng lặp.
 
@@ -413,6 +497,9 @@ Trong Python, mệnh đề else trong cấu trúc for được thực hiện khi
 
 Trong Python, phương thức melt() của DataFrame được sử dụng cho mục đích nào?
 Đáp án: Chuyển đổi dữ liệu từ dạng rộng sang dạng dài.
+
+Trong Python, phương thức pivot() của DataFrame được sử dụng cho mục đích nào?
+Đáp án: Chuyển đổi dữ liệu từ dạng dài sang dạng rộng.
 
 Trong Python, toán tử is dùng để làm gì?
 Đáp án: Kiểm tra xem hai biến có tham chiếu cùng một đối tượng hay không.
@@ -471,6 +558,9 @@ Trong thư viện Pandas, giá trị nào được sử dụng để biểu di�
 Trong thư viện Pandas, khi dùng các hàm thống kê như sum() và mean() thì tham số axis=1 có ý nghĩa gì?
 Đáp án: Tính toán theo chiều ngang, tức theo từng hàng.
 
+Trong thư viện Pandas, khi dùng các hàm thống kê như sum() và mean() thì tham số axis=0 có ý nghĩa gì?
+Đáp án: Tính toán theo chiều dọc, tức theo từng cột.
+
 Trong thư viện Pandas, khi dùng hàm merge() với tham số how="inner", kết quả gộp dữ liệu sẽ như thế nào?
 Đáp án: Chỉ giữ các dòng có khóa xuất hiện ở cả hai DataFrame.
 
@@ -482,6 +572,18 @@ Trong thư viện Pandas (Python), với DataFrame df, điểm khác biệt chí
 
 Trong thư viện pandas (Python), sau khi dùng hàm reset_index(), index cũ sẽ được xử lý thế nào?
 Đáp án: Trở thành một cột dữ liệu.
+
+Trong tiền xử lý dữ liệu, với dữ liệu có đặc trưng thứ tự {Low, Medium, High}, phương pháp mã hóa phù hợp nhất cho đặc trưng này là gì?
+Đáp án: Label encoding.
+
+Trong việc đánh giá mô hình cho bài toán phân loại. Mô hình A có Accuracy 95% nhưng F1-Score thấp. Mô hình B có Accuracy 90% nhưng F1-Score cao. Nếu dữ liệu bị mất cân bằng (Imbalanced), bạn nên tin tưởng mô hình nào hơn?
+Đáp án: Mô hình B
+
+Trong việc đánh giá mô hình cho bài toán hồi quy. Giá trị thực tế là [10, 20], giá trị dự đoán là [12, 19]. Tính MSE?
+Đáp án: 2.5
+
+Trong việc đánh giá mô hình cho bài toán hồi quy, tại sao MAE (Mean Absolute Error) lại ít bị ảnh hưởng bởi nhiễu (outliers) hơn so với MSE?
+Đáp án: Vì MAE chỉ lấy trị tuyệt đối.
 
 Trong Pandas, với DataFrame df, lệnh df.set_index("col") thực hiện điều gì?
 Đáp án: Gán cột "col" thành index.
@@ -496,8 +598,20 @@ Việc thiếu kiến thức chuyên môn khi thực hiện một dự án liên
 Vòng lặp while trong Python sẽ dừng khi nào?
 Đáp án: Khi điều kiện lặp trở thành False.
 
+Với cột “Giới tính” gồm các giá trị: “Nam”, “Nữ”, “Không xác định”,  phương pháp mã hóa One-Hot Encoding tạo ra bao nhiêu cột?
+Đáp án: 3 cột
+
 Với DataFrame df, lệnh nào chọn hàng có cột A > 2 và cột B < 5 điều kiện nhiều cột?
 Đáp án: df[(df.A > 2) & (df.B < 5)]
+
+Với DataFrame df , lệnh nào không hợp lệ?
+df.iloc[1:3, 'A']
+
+Với DataFrame df , lệnh nào không thể dùng để truy cập nhiều cột?
+Đáp án: df.get('A','B')
+
+Với DataFrame df gồm các cột ‘A’ đến ‘E’. Lệnh nào chọn cột 'A' và 'C' bằng vị trí?
+Đáp án: df.iloc[:, [0,2]]
 
 Với s = pd.Series([10,20,30], index=["a","b","c"]), thì s["b"] sẽ trả về giá trị là gì?
 Đáp án: 20
